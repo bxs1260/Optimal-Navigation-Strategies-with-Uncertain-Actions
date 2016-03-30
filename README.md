@@ -1,0 +1,2 @@
+# Optimal-Navigation-Strategies-with-Uncertain-Actions
+Determined an approximately optimal navigation strategy for a grid-based navigation task with probabilistic actions (left, right, up, down, each with a 80% success probability) and uncertain state observations (The location's x and y coordinate are returned with a probability of 0.8 for the actual location and 0.1 for each of the neighboring coordinates). Used POMDP to track the belief state and to determine an approximately optimal policy (in the presence of obstacles).
